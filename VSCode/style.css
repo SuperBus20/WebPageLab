@@ -1,0 +1,39 @@
+/* Style the header */
+.header {
+    padding: 10px 16px;
+    background: rgb(202, 131, 149);
+    color: #000000;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  /* Page content */
+  .content {
+    padding: 8px;
+  }
+  
+  /* The sticky class is added to the header with JS when it reaches its scroll position */
+  .sticky {
+    position: fixed;
+    top: 8px;
+    width: 100%
+  }
+  
+  /* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+  .sticky + .content {
+    padding-top: 102px;
+  }
+/* style the subheader bullets on the home page */
+  .subHeader {
+    color: lightcoral;
+    padding: 8px;
+  }
+/* picked a better font :) */
+  body{
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  .links{
+    font-size: 20px;
+    
+  }
